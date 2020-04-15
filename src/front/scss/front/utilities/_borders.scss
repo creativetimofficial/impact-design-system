@@ -1,0 +1,5 @@
+@each $color, $value in $theme-colors {
+    .border-variant-#{$color} {
+      border-color: darken( $value, 5% ) !important;
+    }
+}

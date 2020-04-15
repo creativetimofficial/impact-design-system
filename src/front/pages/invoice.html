@@ -1,0 +1,233 @@
+<!--
+=========================================================
+* Impact Design System PRO - v1.0.0
+=========================================================
+* Product Page: https://www.creative-tim.com/product/impact-design-system-pro
+* Copyright  Creative Tim (http://www.creative-tim.com)
+* Coded by www.creative-tim.com
+=========================================================
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "..",
+        "path_common": "../..",
+        "title": "Impact - Invoice page"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "..",
+        "path_common": "../..",
+        "classes": "navbar-light navbar-theme-primary"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": ".."
+        })
+        
+        <section class="section bg-soft section-lg pt-8">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="card shadow-soft border-light p-4 p-md-5 position-relative">
+                            <div class="d-flex justify-content-between pb-4 pb-md-5 mb-4 mb-md-5 border-bottom border-light">
+                                <img src="../assets/img/brand/dark.svg" height="35" alt="Impact Logo">
+                                <div>
+                                    <h4>Impact LLC.</h4>
+                                    <ul class="list-group simple-list">
+                                        <li class="list-group-item font-weight-normal">112 Washington Square</li>
+                                        <li class="list-group-item font-weight-normal">New York, USA</li>
+                                        <li class="list-group-item font-weight-normal"><a class="font-weight-bold text-primary" href="#">info@company.com</a></li>
+                                    </ul> 
+                                </div>
+                            </div>
+                            <div class="mb-6 d-flex align-items-center justify-content-center">
+                                <h2 class="h1 mb-0">Invoice #00123</h2>
+                                <span class="badge badge-xl badge-success ml-2">Paid</span>
+                            </div>
+                            <div class="row justify-content-between mb-4 mb-md-5">
+                                <div class="col-sm">
+                                    <h5>Client Information:</h5>
+                                    <div>
+                                        <ul class="list-group simple-list">
+                                            <li class="list-group-item font-weight-normal">Henry M. Pike</li>
+                                            <li class="list-group-item font-weight-normal">Impact LLC</li>
+                                            <li class="list-group-item font-weight-normal">311 West Mechanic Lane Middletown, NY 10940</li>
+                                            <li class="list-group-item font-weight-normal"><a class="font-weight-bold text-primary" href="#">name@company.com</a></li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                                <div class="col-sm col-lg-4">
+                                    <dl class="row text-sm-right">
+                                        <dt class="col-6"><strong>Invoice No.</strong>
+                                        </dt>
+                                        <dd class="col-6">00123</dd>
+                                        <dt class="col-6"><strong>Date Issued:</strong>
+                                        </dt>
+                                        <dd class="col-6">31/03/2020</dd>
+                                        <dt class="col-6"><strong>Date Due:</strong>
+                                        </dt>
+                                        <dd class="col-6">30/04/2020</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="table-responsive">
+                                        <table class="table mb-0">
+                                            <thead class="bg-light border-top">
+                                                <tr>
+                                                    <th scope="row" class="border-0 text-left">
+                                                        Item
+                                                    </th>
+                                                    <th scope="row" class="border-0">
+                                                        Description
+                                                    </th>
+                                                    <th scope="row" class="border-0">
+                                                        Price
+                                                    </th> 
+                                                    <th scope="row" class="border-0">
+                                                        Qty
+                                                    </th>
+                                                    <th scope="row" class="border-0">
+                                                        Total
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row" class="text-left font-weight-bold h6">
+                                                        Origin License
+                                                    </th>
+                                                    <td>
+                                                        Extended License
+                                                    </td>
+                                                    <td>
+                                                        999,00
+                                                    </td>
+                                                    <td>
+                                                        1
+                                                    </td>
+                                                    <td>
+                                                        999,00
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="text-left font-weight-bold h6">
+                                                        Custom Services
+                                                    </th>
+                                                    <td>
+                                                        Instalation and Customization (cost per hour)
+                                                    </td>
+                                                    <td>
+                                                        $150,00
+                                                    </td>
+                                                    <td>
+                                                        20
+                                                    </td>
+                                                    <td>
+                                                        3000,00
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="text-left font-weight-bold h6">
+                                                        Hosting
+                                                    </th>
+                                                    <td>
+                                                        1 year subcription
+                                                    </td>
+                                                    <td>
+                                                        $499,00
+                                                    </td>
+                                                    <td>
+                                                        1
+                                                    </td>
+                                                    <td>
+                                                        $499,00
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="text-left font-weight-bold h6">
+                                                        Platinum Support
+                                                    </th>
+                                                    <td>
+                                                        1 year subcription 24/7
+                                                    </td>
+                                                    <td>
+                                                        $3.999,00
+                                                    </td>
+                                                    <td>
+                                                        1
+                                                    </td>
+                                                    <td>
+                                                        $3.999,00
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="d-flex justify-content-end text-right mb-4 py-4 border-bottom">
+                                        <div class="mt-4">
+                                            <table class="table table-clear">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="left">
+                                                            <strong>Subtotal</strong>
+                                                        </td>
+                                                        <td class="right">$8.497,00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="left">
+                                                            <strong>Discount (20%)</strong>
+                                                        </td>
+                                                        <td class="right">$1,699,40</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="left">
+                                                            <strong>VAT (10%)</strong>
+                                                        </td>
+                                                        <td class="right">$679,76</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="left">
+                                                            <strong>Total</strong>
+                                                        </td>
+                                                        <td class="right">
+                                                            <strong>$7.477,36</strong>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <h4>Payments to:</h4>
+                                    <span>payment@company.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @@include('./_footer.html', {
+            "path": "..",
+            "path_common": "../..",
+            "classes": "bg-primary text-white"
+        })
+
+    </main>
+
+    @@include('./_scripts.html', {
+        "path": "..",
+        "path_common": "../.."
+    })
+    
+</body>
+
+</html>

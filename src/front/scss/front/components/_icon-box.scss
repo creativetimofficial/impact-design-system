@@ -1,0 +1,286 @@
+/**
+ * = Icon boxes
+ */
+
+.icon-box{
+	padding: $icon-box-padding;
+	position: relative;
+	
+	.icon-box-body{
+		position: relative;
+	}
+
+	&.image-box{
+		@include icon-image-background(center, cover, no-repeat); 
+	}
+
+	&.big-parallax{
+		@include background-image(no-repeat, cover); 
+		overflow: hidden;
+		position: relative;
+	}
+
+	&.border-parallax{
+		@include background-image(no-repeat, cover); 
+		background-position: fixed;
+	}
+	
+}
+
+.icon-bordered{
+	width: $icon-shape-bordered;
+	height: $icon-shape-bordered;
+	i{
+		line-height:2;
+	}
+}
+
+.icon {
+	text-align: center;
+	display: inline-flex;
+	@include align-items(center);
+	@include justify-content(center);
+
+	i, svg {
+		font-size: $icon-size;
+	}
+
+	&.icon-xs{
+		i, svg {
+			font-size: $icon-size-xs;
+		}
+	}
+
+	&.icon-sm{
+		i, svg {
+			font-size: $icon-size-sm;
+		}
+	}
+
+	&.icon-lg{
+		i, svg {
+			font-size: $icon-size-lg;
+		}
+		svg{
+			height: 2rem;
+		}
+	}
+
+	&.icon-xl{
+		i{
+			font-size: $icon-size-xl;
+		}
+		svg{
+			height: 3.5rem;
+		}
+	}
+
+	.organic-shape{
+		margin-left:.5rem;
+	}
+
+	&.rounded-circle{
+		.icon-bordered{
+			border-radius:$circle-radius;
+		}
+	}
+
+	&.organic-radius{
+		.icon-bordered{
+			border-radius:$organic-radius;
+		}
+	}
+}
+
+// Icons included in shapes
+.icon-shape {
+	width: $icon-shape;
+	height: $icon-shape;
+	text-align: center;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	i, svg {
+		font-size: $icon-size;
+	}
+
+	&.icon-xs {
+		width: $icon-shape-xs;
+		height: $icon-shape-xs;
+		i, svg {
+			font-size: $icon-size-xs;
+		}
+	}
+
+	&.icon-sm {
+		width: $icon-shape-sm;
+		height: $icon-shape-sm;
+		i, svg {
+			font-size: $icon-size-sm;
+		}
+	}
+	
+	&.icon-lg{
+		width: $icon-shape-lg;
+		height: $icon-shape-lg;
+		i, svg {
+			font-size: $icon-size-md;
+		}
+	}
+}
+
+//Icon Parallax
+.image-shape {
+    width: $icon-shape-img;
+	height: $icon-shape-img;
+	position: relative;
+	@include icon-image-background(center, cover, no-repeat); 
+    i {
+        font-size: $icon-size;
+		z-index: 1;
+	}
+	&.icon-parallax{
+		@include icon-parallax-background(center, cover, fixed, no-repeat); 
+		overflow: hidden;
+		background-repeat: no-repeat;
+	}
+}
+ 
+//Colors for icons
+@each $color, $value in $theme-colors {
+	.icon-shape-#{$color} {
+		@include icon-shape-variant(theme-color($color));
+	}
+	.icon-#{$color} {
+		color:$value;
+	}
+}
+
+.github-big-icon{
+	position: absolute;
+    right: -255px;
+    top: 75px;
+	span{
+		font-size: 800px;
+    	opacity: .1;
+	}
+}
+
+.section-nucleo-icons {
+
+    --icon-size: 5rem;
+    --icon-sm-size: 3.75rem;
+    --gutter: 7rem;
+
+    .icons-container {
+        position: relative;
+        max-width: 100%;
+        height: 360px;
+        margin: 0 auto;
+        z-index: 1;
+
+        i {
+            position: absolute;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: $white;
+            z-index: 1;
+            transform: translate(-50%, -50%);
+            @include box-shadow($box-shadow);
+            transition: all .2s cubic-bezier(.25,.65,.9,.75);
+
+            &.icon {
+                width: var(--icon-size);
+                height: var(--icon-size);
+                font-size: 1.7em;
+            }
+
+            &.icon-sm {
+                width: var(--icon-sm-size);
+                height: var(--icon-sm-size);
+                font-size: 1.5em;
+            }
+
+            &:nth-child(1) {
+                font-size: 42px;
+                color: theme-color("warning");
+                z-index: 2;
+            }
+        }
+
+        i {
+            opacity: 1;
+
+            &:nth-child(1) {
+                left: 50%;
+                top: 50%;
+                font-size: 42px;
+                color: theme-color("warning");
+            }
+
+            &:nth-child(2) {
+                left: calc(50% + (var(--gutter) * 1.7));
+                top: 50%;
+            }
+
+            &:nth-child(3) {
+                left: calc(50% + var(--gutter));
+                top: calc(50% + var(--gutter));
+            }
+
+            &:nth-child(4) {
+                left: calc(50% + var(--gutter));
+                top: calc(50% - var(--gutter));
+            }
+
+            &:nth-child(5) {
+                left: calc(50% + (var(--gutter) * 4));
+                top: 50%;
+            }
+
+            &:nth-child(6) {
+                left: calc(50% + (var(--gutter) * 2.7));
+                top: calc(50% + (var(--gutter) * 1.5));
+            }
+
+            &:nth-child(7) {
+                left: calc(50% + (var(--gutter) * 2.7));
+                top: calc(50% - (var(--gutter) * 1.5));
+            }
+
+            &:nth-child(8) {
+                left: calc(50% - (var(--gutter) * 1.7));
+                top: 50%;
+            }
+
+            &:nth-child(9) {
+                left: calc(50% - var(--gutter));
+                top: calc(50% + var(--gutter));
+            }
+
+            &:nth-child(10) {
+                left: calc(50% - var(--gutter));
+                top: calc(50% - var(--gutter));
+            }
+
+            &:nth-child(11) {
+                left: calc(50% - (var(--gutter) * 4));
+                top: 50%;
+            }
+
+            &:nth-child(12) {
+                left: calc(50% - (var(--gutter) * 2.7));
+                top: calc(50% + (var(--gutter) * 1.5));
+            }
+
+            &:nth-child(13) {
+                left: calc(50% - (var(--gutter) * 2.7));
+                top: calc(50% - (var(--gutter) * 1.5));
+            }
+
+        }
+    }
+}

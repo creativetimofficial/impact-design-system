@@ -1,0 +1,440 @@
+<!--
+=========================================================
+* Impact Design System PRO - v1.0.0
+=========================================================
+* Product Page: https://www.creative-tim.com/product/impact-design-system-pro
+* Copyright  Creative Tim (http://www.creative-tim.com)
+* Coded by www.creative-tim.com
+=========================================================
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "./front",
+        "path_common": ".",
+        "title": "Impact - Design System PRO"
+    })
+</head>
+
+<body>
+
+    @@include('./_navigation.html', {
+        "path": "./front",
+        "logo_classes": "d-none",
+        "cta_button_classes": "d-lg-none",
+        "path_common": ".",
+        "classes": "navbar-dark navbar-theme-primary"
+    })
+
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "./front"
+        })
+
+        <!-- Hero -->
+        <section class="section-header pb-9 pb-lg-12 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-12 text-center">
+                        <img src="./front/assets/img/brand/light.svg" class="mb-4" height="65" alt="Logo Impact">
+                        <span class="impact-badge font-weight-bolder text-white bg-secondary">PRO</span>
+                        <h1 class="display-4 text-muted mb-5 px-lg-5 px-lg-12 font-weight-normal">The ultimate design system for your online business</h1>
+                        <div class="d-flex align-items-center justify-content-center mb-5">
+                            <a href="#" class="btn btn-md btn-secondary animate-up-2"><i class="fas fa-shopping-cart mr-2"></i> Purchase</a>
+                        </div>
+                        <!-- Button Modal -->
+                        <p class="text-muted font-small">Joint production by:</p>
+                        <div class="d-flex justify-content-center mt-4">
+                            <a href="https://themesberg.com" class="mr-4" target="_blank">
+                                <img src="./front/assets/img/themesberg.svg" height="40" alt="Themesberg Logo">
+                                <span class="d-block text-muted font-small mt-2">Themesberg</span>
+                            </a>
+                            <a href="https://creative-tim.com" target="_blank">
+                                <img src="./front/assets/img/creative-tim-circle.png" height="40" alt="Creative Tim Logo">
+                                <span class="d-block text-muted font-small mt-2">Creative Tim</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pattern bottom"></div>
+        </section>
+        <div class="section pt-0">
+            <div class="container mt-n10 mt-lg-n12 z-2">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img src="./front/assets/img/presentation-mockup.png" alt="illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section section-lg pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="display-2 text-center mb-5 mb-lg-7">What you get?</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
+                    <div class="col-lg-5 order-lg-2">
+                        <h2 class="h1">Front pages</h2>
+                        <p class="lead mb-4">25 hand-crafted pages for your startup</p>
+                        <p class="mb-5">Showcase your startup with the front and landing pages it deserves. With a lot of care we developed some of the best presentational pages you can get.</p>
+                        <div class="d-flex justify-content-between mt-lg-4 mb-5">
+                            <div>
+                                <a href="./front/pages/all.html" target="_blank" class="btn btn-secondary animate-up-2">Front demo</a>
+                            </div>
+                            <a href="https://themesberg.com/" target="_blank">
+                                <div class="author-image mr-2 d-flex">
+                                    <img src="./front/assets/img/themesberg.svg" alt="Themesberg Logo">
+                                    <div class="d-block text-black ml-3">
+                                        <p class="mb-1 text-gray font-small">Created by</p>
+                                        <h6>Themesberg</h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <img src="./front/assets/img/presentation-mockup-2.png" alt="illustration">
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-5 mb-lg-7">
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-secondary mb-4">
+                            <i class="fas fa-pager"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">25</h3>
+                        <p class="text-gray">Front Pages</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-secondary mb-4">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">500+</h3>
+                        <p class="text-gray">Premium Components</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-secondary mb-4">
+                            <i class="fab fa-sass"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">Workflow</h3>
+                        <p class="text-gray">Sass & Gulp</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-secondary mb-4">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">Full</h3>
+                        <p class="text-gray">Documentation</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
+                    <div class="col-lg-5">
+                        <h2 class="h1">Dashboard</h2>
+                        <p class="lead mb-4">Over 200 individual components</p>
+                        <p class="mb-5">Start your development with a Premium Dashboard built with over 200 individual components, giving you the freedom of choosing and combining.</p>
+                        <div class="d-flex justify-content-between mt-lg-4 mb-5">
+                            <div>
+                                <a href="./dashboard/pages/dashboards/dashboard.html" target="_blank" class="btn btn-primary animate-up-2">Dashboard demo</a>
+                            </div>
+                            <a href="https://creative-tim.com/" target="_blank">
+                                <div class="author-image mr-2 d-flex">
+                                    <img src="./front/assets/img/creative-tim-logo.png" alt="Creative Tim Logo">
+                                    <div class="d-block text-black ml-3">
+                                        <p class="mb-1 text-gray font-small">Created by</p>
+                                        <h6>Creative Tim</h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./front/assets/img/presentation-mockup-3.png" alt="illustration">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-primary mb-4">
+                            <i class="fas fa-pager"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">20+</h3>
+                        <p class="text-gray">Dashboard Pages</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-primary mb-4">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">1100+</h3>
+                        <p class="text-gray">Individual Components</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-primary mb-4">
+                            <i class="fab fa-sass"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">Workflow</h3>
+                        <p class="text-gray">Sass & Gulp</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-primary mb-4">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">Full</h3>
+                        <p class="text-gray">Documentation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mb-lg-6">
+                    <div class="col-12 text-center">
+                        <h2 class="h1 px-lg-5">Awesome Features</h2>
+                        <p class="lead px-lg-8">You get all Bootstrap components fully customized. Besides, you receive numerous plugins out of the box and ready to use.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fab fa-bootstrap"></i></span>
+                                <h5 class="font-weight-normal text-primary">Bootstrap</h5>
+                                <p>Built with the most popular CSS Framework</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fab fa-sass"></i></span>
+                                <h5 class="font-weight-normal text-primary">Sass</h5>
+                                <p>Variables and mixins to empower development</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fas fa-mobile-alt"></i></span>
+                                <h5 class="font-weight-normal text-primary">Responsive</h5>
+                                <p>All pages and components are 100% responsive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fab fa-gulp"></i></span>
+                                <h5 class="font-weight-normal text-primary">Gulp</h5>
+                                <p>Gulp & BrowserSync for a flawless workflow</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="far fa-images"></i></span>
+                                <h5 class="font-weight-normal text-primary">Creative rights</h5>
+                                <p>All images, icons and fonts are licensed & free to use</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="far fa-file-alt"></i></span>
+                                <h5 class="font-weight-normal text-primary">Documentation</h5>
+                                <p>Everything that comes with Impact is well documented</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fas fa-medkit"></i></span>
+                                <h5 class="font-weight-normal text-primary">Premium support</h5>
+                                <p>We offer 6 months of premium support by default</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fab fa-html5"></i></span>
+                                <h5 class="font-weight-normal text-primary">W3C Validated</h5>
+                                <p>HTML pages are all valid by W3C Standards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg line-bottom-soft">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mb-lg-6">
+                    <div class="col-12 text-center">
+                        <h2 class="h1 px-lg-5">What's inside?</h2>
+                        <p class="lead px-lg-8">We have carefully crafted the perfect folder structure to ensure that finding the files you're looking for are easily reachable and well organized.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-lg-6 mb-4">
+                        <div class="d-none d-lg-block mt-5">
+                            <h4>You need only HTML, CSS and Javascript?</h4>
+                            <p class="lead mb-4">Don't worry, we got you covered. We have a folder called <code class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and Javascript technologies.</p>
+                            <a href="#" class="btn btn-md btn-primary animate-up-2 mr-3"><i class="fas fa-book mr-1"></i> Docs File Structure</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 order-lg-first d-flex justify-content-center">
+                        <ul class="d-block fmw-100 list-style-none folder-structure">
+                            <li data-toggle="tooltip" data-placement="left" title="Main folder that you will be working with"><i class="fas fa-folder mr-2"></i>src</li>
+                            <li>
+                                <ul class="list-style-none pl-4">
+                                    <li data-toggle="tooltip" data-placement="left" title="Front pages source files"><i class="fas fa-folder mr-2"></i> front</li>
+                                    <li>
+                                        <ul class="class list-style-none pl-4">
+                                            <li data-toggle="tooltip" data-placement="left" title="CSS, Images, Fonts and Javascript"><i class="fas fa-folder mr-2"></i> assets</li>
+                                            <li data-toggle="tooltip" data-placement="left" title="HTML templates"><i class="fas fa-folder mr-2"></i> pages</li>
+                                            <li data-toggle="tooltip" data-placement="left" title="Partials are HTML snippets that are included in multiple pages, such as the menu or footer"><i class="fas fa-folder mr-2"></i> partials</li>
+                                            <li data-toggle="tooltip" data-placement="left" title="Sass source files"><i class="fas fa-folder mr-2"></i> scss</li>
+                                        </ul>
+                                    </li>
+                                    <li data-toggle="tooltip" data-placement="left" title="Dashboard pages source files"><i class="fas fa-folder mr-2"></i> dashboard</li>
+                                    <li>
+                                        <ul class="class list-style-none pl-4">
+                                            <li data-toggle="tooltip" data-placement="left" title="CSS, Images, Fonts and Javascript"><i class="fas fa-folder mr-2"></i> assets</li>
+                                            <li data-toggle="tooltip" data-placement="left" title="HTML templates"><i class="fas fa-folder mr-2"></i> pages</li>
+                                            <li data-toggle="tooltip" data-placement="left" title="Partials are HTML snippets that are included in multiple pages, such as the menu or footer"><i class="fas fa-folder mr-2"></i> partials</li>
+                                            <li data-toggle="tooltip" data-placement="left" title="Sass source files"><i class="fas fa-folder mr-2"></i> scss</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li data-toggle="tooltip" data-placement="left" title="Temporary folder that is created when serving files with BrowserSync"><i class="fas fa-folder text-muted mr-2"></i>.temp</li>
+                            <li data-toggle="tooltip" data-placement="left" title="Minified version of the project">
+                                <i class="fas fa-folder mr-2 text-muted"></i> dist</li>
+                            <li data-toggle="tooltip" data-placement="left" title="Project dependencies from package.json"><i class="fas fa-folder text-muted mr-2"></i> node_modules
+                            </li>
+                            <li data-toggle="tooltip" data-placement="left" title="Development workflow commands. We have them well documented."><i class="fab fa-js-square mr-2 text-warning"></i> gulpfile.js</li>
+                            <li data-toggle="tooltip" data-placement="left" title="The page you're looking at right now. Call it inception."><i class="fab fa-html5 mr-2 text-secondary"></i> index.html</li>
+                            <li data-toggle="tooltip" data-placement="left" title="Project details and dependencies."><i class="fas fa-file-code mr-2 text-tertiary"></i> package.json</li>
+                            <li data-toggle="tooltip" data-placement="left" title="No project can miss a README :)"><i class="fas fa-file-code mr-2 text-tertiary"></i> README.md</li>
+                            <li data-toggle="tooltip" data-placement="left" title="This file ensures that generated files and folder are ignored by Git. (eg. node_modules)">
+                                <i class="fas fa-file-code mr-2 text-tertiary"></i> .gitignore</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mt-5 d-lg-none">
+                        <h5>You need only HTML, CSS and Javascript?</h5>
+                        <p>Don't worry, we got you covered. We have a folder called <code class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and Javascript technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg bg-primary">
+            <div class="container">
+                <div class="row justify-content-center text-center text-white mb-5">
+                    <div class="col-12">
+                        <h2 class="h1 font-weight-light mb-3">Less <span class="font-weight-bold">work</span>, more <span class="font-weight-bold">flow</span>.</h2>
+                        <p class="lead px-lg-8">
+                            Boost productivity with BrowserSync. Sass changes are reflected instantly and pages scroll and refresh on devices as you work.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-6">
+                    <div class="col-md-10 col-xl-9">
+                        <div class="position-relative">
+                            <div class="rounded bg-white p-4 text-dark mb-2">
+                                <div class="mb-3">
+                                    <div class="font-weight-normal">&gt; $ npm install</div>
+                                    <div class="text-secondary">Everything’s installed!</div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="font-weight-normal">&gt; $ gulp</div>
+                                    <div class="text-secondary">SCSS watching</div>
+                                    <div class="text-secondary">LiveReload started</div>
+                                    <div class="text-secondary">Opening localhost:3000</div>
+                                </div>
+                                <div>
+                                    <div class="font-weight-normal">&gt; $ that's it?</div>
+                                    <div class="text-secondary">It's that simple!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-4 text-white text-center">Looks unfamiliar? Don’t worry! Our <a class="text-white text-underline font-weight-bold" href="./docs/introduction.html" target="_blank">documentation</a> has got you covered.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @@include('./_demo.html', {
+            "path": "./front",
+            "classes": "bg-primary text-white"
+        })
+
+        <section class="py-7 section-nucleo-icons bg-white overflow-hidden">
+            <div class="container">
+                <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-3">Nucleo Icons</h2>
+                    <p class="lead">
+                    The official package contains over 21.000 icons which are looking great in combination with Impact Design System. Make sure you check all of them and use those that you like the most.
+                    </p>
+                    <div class="btn-wrapper mb-5">
+                    <a href="#" class="btn btn-primary mr-2">View demo icons</a>
+                    <a href="https://nucleoapp.com/?ref=1712" target="_blank" class="btn btn-outline-secondary mt-3 mt-md-0">View all icons</a>
+                    </div>
+                </div>
+                </div>
+                <div class="blur--hover">
+                <a href="#">
+                    <div class="icons-container blur-item mt-5">
+                    <!-- Center -->
+                    <i class="icon ni ni-diamond"></i>
+                    <!-- Right 1 -->
+                    <i class="icon icon-sm ni ni-album-2"></i>
+                    <i class="icon icon-sm ni ni-app"></i>
+                    <i class="icon icon-sm ni ni-atom"></i>
+                    <!-- Right 2 -->
+                    <i class="icon ni ni-bag-17"></i>
+                    <i class="icon ni ni-bell-55"></i>
+                    <i class="icon ni ni-credit-card"></i>
+                    <!-- Left 1 -->
+                    <i class="icon icon-sm ni ni-briefcase-24"></i>
+                    <i class="icon icon-sm ni ni-building"></i>
+                    <i class="icon icon-sm ni ni-button-play"></i>
+                    <!-- Left 2 -->
+                    <i class="icon ni ni-calendar-grid-58"></i>
+                    <i class="icon ni ni-camera-compact"></i>
+                    <i class="icon ni ni-chart-bar-32"></i>
+                    </div>
+                    <span class="blur-hidden h5 text-secondary">Explore all the 21.000+ Nucleo Icons</span>
+                </a>
+                </div>
+            </div>
+        </section>
+
+        @@include('./_pricing.html', {
+        "path": "./front",
+        "classes": "bg-primary text-white"
+        })
+    
+        @@include('./_footer.html', {
+            "path": "./front",
+            "path_common": ".",
+            "classes": "bg-primary text-white"
+        })
+
+    </main>
+
+    @@include('./_scripts.html', {
+        "path": "./front",
+        "path_common": "."
+    })
+    
+</body>
+
+</html>

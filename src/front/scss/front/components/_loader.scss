@@ -1,0 +1,33 @@
+.preloader {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity .2s linear;
+    width: 100%;
+    z-index: 9999;
+
+    .loader-element {
+        position: relative;
+
+        .loader-animated-dot {
+            display: block;
+            width: 9px;
+            height: 9px;
+            background: $secondary;
+            border-radius: 50%;
+            position: absolute;
+            left: 1px;
+            top: 1px;
+            animation: bounce .6s cubic-bezier(0.6, -0.28, 0.74, 0.05) infinite;
+        }
+    }
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-3px); }
+    100% { transform: translateY(0); }
+}

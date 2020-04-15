@@ -1,0 +1,63 @@
+<!--
+=========================================================
+* Impact Design System PRO - v1.0.0
+=========================================================
+* Product Page: https://www.creative-tim.com/product/impact-design-system-pro
+* Copyright  Creative Tim (http://www.creative-tim.com)
+* Coded by www.creative-tim.com
+=========================================================
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "..",
+        "path_common": "../..",
+        "title": "Impact - SaaS Landing Page"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "..",
+        "path_common": "../..",
+        "classes": "navbar-light navbar-theme-primary"
+    })
+
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": ".."
+        })
+
+        <section class="section section-xl py-7 pt-lg-8 bg-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center"> 
+                        <span class="icon icon-shape icon-shape-success rounded-circle mb-4"><i class="fas fa-check"></i></span>               
+                        <h1 class="mb-4">Your order is completed!</h1>
+                        <p class="lead mb-5 px-sm-5">Thank you for your order! Your order is being processed and will be completed within 3-6 hours. You will receive an email confirmation when your order is completed.</p>
+                        <a class="btn btn-primary animate-up-2" href="../../dashboard/pages/dashboards/dashboard.html" target="_blank">Go to Dashboard</a>   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @@include('./_footer-2.html', {
+            "path": "..",
+            "path_common": "../..",
+            "classes": "bg-primary text-white"
+        })
+
+    </main>
+
+    @@include('./_scripts.html', {
+        "path": "..",
+        "path_common": "../.."
+    })
+    
+</body>
+
+</html>
