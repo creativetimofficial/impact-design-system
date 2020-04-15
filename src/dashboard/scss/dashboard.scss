@@ -1,8 +1,8 @@
 /*
 =========================================================
-* Impact Design System PRO - v1.0.0
+* Impact Design System - v1.0.0
 =========================================================
-* Product Page: https://www.creative-tim.com/product/impact-design-system-pro
+* Product Page: https://www.creative-tim.com/product/impact-design-system
 * Copyright  Creative Tim (http://www.creative-tim.com)
 * Coded by www.creative-tim.com
 =========================================================
