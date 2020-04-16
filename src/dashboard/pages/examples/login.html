@@ -16,94 +16,109 @@
   "path_common": "../../.."
 })
 
-<body class="bg-default">
-  <!-- Navbar -->
-  <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="../../../index.html">
-        <img src="../../assets/img/brand/light.svg" height="30">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse navbar-custom-collapse collapse" id="navbar-collapse">
-        <div class="navbar-collapse-header">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <a href="../../../index.html">
-                <img src="../../assets/img/brand/dark.svg" height="40">
-              </a>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-              </button>
+<body class="bg-white">
+  <!-- Sidenav -->
+  <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+    <div class="scrollbar-inner">
+      <!-- Brand -->
+      <div class="sidenav-header  d-flex  align-items-center">
+        <a class="navbar-brand" href="../../../index.html">
+          <img src="../../assets/img/brand/dark.svg" height="40" class="navbar-brand-img" alt="...">
+        </a>
+        <div class=" ml-auto ">
+          <!-- Sidenav toggler -->
+          <div class="sidenav-toggler d-none d-xl-block" data-action="sidenav-unpin" data-target="#sidenav-main">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
             </div>
           </div>
         </div>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a href="../../pages/dashboards/dashboard.html" class="nav-link">
-              <span class="nav-link-inner--text">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../../pages/examples/pricing.html" class="nav-link">
-              <span class="nav-link-inner--text">Pricing</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../../pages/examples/login.html" class="nav-link">
-              <span class="nav-link-inner--text">Login</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../../pages/examples/register.html" class="nav-link">
-              <span class="nav-link-inner--text">Register</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../../pages/examples/lock.html" class="nav-link">
-              <span class="nav-link-inner--text">Lock</span>
-            </a>
-          </li>
-        </ul>
-        <hr class="d-lg-none" />
-        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank" data-toggle="tooltip" data-original-title="Like us on Facebook">
-              <i class="fab fa-facebook-square"></i>
-              <span class="nav-link-inner--text d-lg-none">Facebook</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Instagram">
-              <i class="fab fa-instagram"></i>
-              <span class="nav-link-inner--text d-lg-none">Instagram</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Twitter">
-              <i class="fab fa-twitter-square"></i>
-              <span class="nav-link-inner--text d-lg-none">Twitter</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial" target="_blank" data-toggle="tooltip" data-original-title="Star us on Github">
-              <i class="fab fa-github"></i>
-              <span class="nav-link-inner--text d-lg-none">Github</span>
-            </a>
-          </li>
-          <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="https://www.creative-tim.com/product/argon-dashboard-pro" target="_blank" class="btn btn-neutral btn-icon">
-              <span class="btn-inner--icon">
-                <i class="fas fa-shopping-cart mr-2"></i>
-              </span>
-              <span class="nav-link-inner--text">Purchase now</span>
-            </a>
-          </li>
-        </ul>
+      </div>
+      <div class="navbar-inner">
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+          <!-- Nav items -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#navbar-dashboards" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-dashboards">
+                <i class="ni ni-shop text-primary"></i>
+                <span class="nav-link-text">Dashboards</span>
+              </a>
+              <div class="collapse show" id="navbar-dashboards">
+                <ul class="nav nav-sm flex-column">
+                  <li class="nav-item">
+                    <a href="../../pages/dashboards/dashboard.html" class="nav-link">
+                      <span class="sidenav-mini-icon"> D </span>
+                      <span class="sidenav-normal"> Dashboard </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-examples">
+                <i class="ni ni-ungroup text-orange"></i>
+                <span class="nav-link-text">Examples</span>
+              </a>
+              <div class="collapse" id="navbar-examples">
+                <ul class="nav nav-sm flex-column">
+                  <li class="nav-item">
+                    <a href="../../pages/examples/login.html" class="nav-link">
+                      <span class="sidenav-mini-icon"> L </span>
+                      <span class="sidenav-normal"> Login </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="../../pages/examples/register.html" class="nav-link">
+                      <span class="sidenav-mini-icon"> R </span>
+                      <span class="sidenav-normal"> Register </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="../../pages/examples/profile.html" class="nav-link">
+                      <span class="sidenav-mini-icon"> P </span>
+                      <span class="sidenav-normal"> Profile </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#navbar-tables" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-tables">
+                <i class="ni ni-align-left-2 text-default"></i>
+                <span class="nav-link-text">Tables</span>
+              </a>
+              <div class="collapse" id="navbar-tables">
+                <ul class="nav nav-sm flex-column">
+                  <li class="nav-item">
+                    <a href="../../pages/tables/tables.html" class="nav-link">
+                      <span class="sidenav-mini-icon"> T </span>
+                      <span class="sidenav-normal"> Tables </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#navbar-maps" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-maps">
+                <i class="ni ni-map-big text-primary"></i>
+                <span class="nav-link-text">Maps</span>
+              </a>
+              <div class="collapse" id="navbar-maps">
+                <ul class="nav nav-sm flex-column">
+                  <li class="nav-item">
+                    <a href="../../pages/maps/google.html" class="nav-link">
+                      <span class="sidenav-mini-icon"> G </span>
+                      <span class="sidenav-normal"> Google </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -123,17 +138,17 @@
       </div>
       <div class="separator separator-bottom separator-skew zindex-100">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
     </div>
     <!-- Page content -->
-    <div class="container mt--8 pb-5">
+    <div class="container mt--9 pb-5 text-gray">
       <div class="row justify-content-center">
         <div class="col-lg-5 col-md-7">
-          <div class="card bg-secondary border-0 mb-0">
+          <div class="card bg-secondary border border-soft mb-0">
             <div class="card-header bg-transparent pb-5">
-              <div class="text-muted text-center mt-2 mb-3"><small>Sign in with</small></div>
+              <div class="text-center mt-2 mb-3"><small>Sign in with</small></div>
               <div class="btn-wrapper text-center">
                 <a href="#" class="btn btn-neutral btn-icon">
                   <span class="btn-inner--icon"><img src="../../assets/img/icons/common/github.svg"></span>
@@ -146,7 +161,7 @@
               </div>
             </div>
             <div class="card-body px-lg-5 py-lg-5">
-              <div class="text-center text-muted mb-4">
+              <div class="text-center mb-4">
                 <small>Or sign in with credentials</small>
               </div>
               <form role="form">
@@ -169,7 +184,7 @@
                 <div class="custom-control custom-control-alternative custom-checkbox">
                   <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
                   <label class="custom-control-label" for=" customCheckLogin">
-                    <span class="text-muted">Remember me</span>
+                    <span>Remember me</span>
                   </label>
                 </div>
                 <div class="text-center">
@@ -180,10 +195,10 @@
           </div>
           <div class="row mt-3">
             <div class="col-6">
-              <a href="#" class="text-light"><small>Forgot password?</small></a>
+              <a href="#" class="text-gray"><small>Forgot password?</small></a>
             </div>
             <div class="col-6 text-right">
-              <a href="#" class="text-light"><small>Create new account</small></a>
+              <a href="#" class="text-gray"><small>Create new account</small></a>
             </div>
           </div>
         </div>
