@@ -1,5 +1,5 @@
 .temp/
 node_modules/
-dist/
+./dist/
 html&css/
 *.zip
