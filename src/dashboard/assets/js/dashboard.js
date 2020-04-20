@@ -18,6 +18,44 @@
 
 var Layout = (function() {
 
+	$('.navbar-main .dropdown').on('hide.bs.dropdown', function () {
+        var $this = $(this).find('.dropdown-menu');
+
+        $this.addClass('close');
+
+        setTimeout(function () {
+            $this.removeClass('close');
+        }, 200);
+
+    });
+
+    $('.dropdown-submenu > .dropdown-toggle').click(function (e) {
+        e.preventDefault();
+        $(this).parent('.dropdown-submenu').toggleClass('show');
+    });
+
+    $('.dropdown').hover(function() {
+        $(this).addClass('show');
+        $(this).find('.dropdown-menu').addClass('show');
+        $(this).find('.dropdown-toggle').attr('aria-expanded', 'true');
+    }, function () {
+        $(this).removeClass('show');
+        $(this).find('.dropdown-menu').removeClass('show');
+        $(this).find('.dropdown-toggle').attr('aria-expanded', 'false');
+    });
+
+    $('.dropdown').click(function() {
+        if ($(this).hasClass('show')) {
+            $(this).removeClass('show');
+            $(this).find('.dropdown-menu').removeClass('show');
+            $(this).find('.dropdown-toggle').attr('aria-expanded', 'false');
+        } else {
+            $(this).addClass('show');
+        $(this).find('.dropdown-menu').addClass('show');
+        $(this).find('.dropdown-toggle').attr('aria-expanded', 'true');
+        }
+    });
+
     function pinSidenav() {
         $('.sidenav-toggler').addClass('active');
         $('.sidenav-toggler').data('action', 'sidenav-unpin');
