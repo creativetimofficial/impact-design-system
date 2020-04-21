@@ -144,26 +144,6 @@ $(document).ready(function () {
             });
     });
 
-    //Owl Carousel
-
-    $('.testimonial-carousel').owlCarousel({
-        loop: true,
-        margin: 8,
-        nav: false,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        },
-    });
-
     // When in viewport
     $('[data-toggle="on-screen"]')[0] && $('[data-toggle="on-screen"]').onScreen({
         container: window,
@@ -191,16 +171,6 @@ $(document).ready(function () {
         }, 600);
 
         event.preventDefault();
-    });
-
-    //Countdown
-    $('#clock').countdown('2020/10/10').on('update.countdown', function (event) {
-        var $this = $(this).html(event.strftime(''
-            + '<span>%-w</span> week%!w '
-            + '<span>%-d</span> day%!d '
-            + '<span>%H</span> hr '
-            + '<span>%M</span> min '
-            + '<span>%S</span> sec'));
     });
 
     //Parallax
