@@ -1,8 +1,6 @@
-# [Material Kit](https://demos.creative-tim.com/material-kit/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20is%20a%20Free%20Bootstrap%204%20UI%20Kit%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/material-kit/index.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
-
+# [Impact Design System](https://demos.creative-tim.com/material-kit/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20is%20a%20Free%20Bootstrap%204%20UI%20Kit%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/material-kit/index.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
 
  ![version](https://img.shields.io/badge/version-2.0.5-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
-
 
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-kit/material-kit.gif)
 
@@ -32,11 +30,6 @@ This new design has elements that have been the result of research regarding ink
 ## Versions
 
 [<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-kit)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-material-kit)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-kit-react)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-native-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-kit-react-native)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/figma-logo.jpg?raw=true" width="60" height="60" />](https://demos.creative-tim.com/material-kit-figma/presentation.html)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/wordpress-logo.jpg?raw=true" width="60" height="60" />](https://themeisle.com/themes/hestia/?ref=creativetim)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/photoshop-logo.jpg" width="60" height="60" />](https://github.com/creativetimofficial/material-kit/tree/photoshop)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/sketch-logo.jpg" width="60" height="60" />](https://github.com/creativetimofficial/material-kit/tree/sketch)
-
-
-
-
-
 
 | HTML | React | Vue  |
 | --- | --- | ---  |
@@ -76,50 +69,68 @@ The documentation for the Material Kit is hosted at our [website](https://demos.
 Within the download you'll find the following directories and files:
 
 ```
-material-kit/
-├── CHANGELOG.md
-├── LICENSE.md
+impact-design-system/
 ├── README.md
-├── assets
-│   ├── assets-for-demo
-│   ├── css
-│   │   ├── material-kit.css
-│   │   ├── material-kit.css.map
-│   │   └── material-kit.min.css
-│   ├── img
-│   ├── js
-│   │   ├── bootstrap-material-design.js
-│   │   ├── bootstrap-material-design.min.js
-│   │   ├── core
-│   │   │   ├── jquery.min.js
-│   │   │   └── popper.min.js
-│   │   ├── material-kit.js
-│   │   ├── material-kit.min.js
-│   │   └── plugins
-│   │       ├── bootstrap-datetimepicker.min.js
-│   │       ├── jasny-bootstrap.min.js
-│   │       ├── moment.min.js
-│   │       └── nouislider.min.js
-│   └── scss
-│       ├── bootstrap
-│       ├── core
-│       ├── material-kit.scss
-│       └── plugins
-├── bower.json
-├── docs
-│   └── documentation.html
-├── examples
-│   ├── landing-page.html
-│   ├── profile-page.html
-│   └── signup-page.html
-└── index.html
+├── gulpfile.js
+├── package-lock.json
+├── package.json
+└── src
+    ├── dashboard
+    │   ├── assets
+    │   │   ├── fonts
+    │   │   ├── img
+    │   │   ├── js
+    │   │   └── vendor
+    │   ├── docs
+    │   │   └── documentation.html
+    │   ├── pages
+    │   │   ├── dashboards
+    │   │   ├── examples
+    │   │   ├── maps
+    │   │   └── tables
+    │   ├── partials
+    │   │   ├── _head.html
+    │   │   └── _tracking.html
+    │   └── scss
+    │       ├── bootstrap
+    │       ├── core
+    │       ├── custom
+    │       └── dashboard.scss
+    ├── front
+    │   ├── assets
+    │   │   ├── img
+    │   │   └── js
+    │   ├── pages
+    │   │   ├── about.html
+    │   │   ├── all.html
+    │   │   ├── contact.html
+    │   │   ├── index.html
+    │   │   └── pricing.html
+    │   ├── partials
+    │   │   ├── _demo.html
+    │   │   ├── _footer.html
+    │   │   ├── _head.html
+    │   │   ├── _navigation.html
+    │   │   ├── _preloader.html
+    │   │   ├── _pricing.html
+    │   │   ├── _scripts.html
+    │   │   ├── _tracking.html
+    │   │   └── cta
+    │   └── scss
+    │       ├── bootstrap
+    │       ├── front
+    │       └── front.scss
+    └── index.html
 ```
+
 
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
 <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
+
+
 
 ## Resources
 - Demo: <https://demos.creative-tim.com/material-kit/index.html>
