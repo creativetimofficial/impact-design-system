@@ -128,58 +128,6 @@ $(document).ready(function () {
         $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
     }).trigger('blur');
 
-    var e = document.querySelector('[data-toggle="price"]');
-    "undefined" != typeof CountUp && e && e.addEventListener("change", function(e) {
-        ! function(e) {
-            var t = e.target,
-                d = t.checked,
-                a = t.dataset.target,
-                o = document.querySelectorAll(a);
-            [].forEach.call(o, function(e) {
-                var t = e.dataset.annual,
-                    a = e.dataset.monthly,
-                    o = e.dataset.decimals ? e.dataset.decimals : null,
-                    n = e.dataset.duration ? e.dataset.duration : 1,
-                    r = e.dataset.options ? JSON.parse(e.dataset.options) : null,
-                    l = d ? new CountUp(e, t, a, o, n, r) : new CountUp(e, a, t, o, n, r);
-                l.error ? console.error(l.error) : l.start()
-            })
-        }(e)
-    })
-
-
-    // NoUI Slider
-    if ($(".input-slider-container")[0]) {
-        $('.input-slider-container').each(function () {
-
-            var slider = $(this).find('.input-slider');
-            var sliderId = slider.attr('id');
-            var minValue = slider.data('range-value-min');
-            var maxValue = slider.data('range-value-max');
-
-            var sliderValue = $(this).find('.range-slider-value');
-            var sliderValueId = sliderValue.attr('id');
-            var startValue = sliderValue.data('range-value-low');
-
-            var c = document.getElementById(sliderId),
-                d = document.getElementById(sliderValueId);
-
-            noUiSlider.create(c, {
-                start: [parseInt(startValue)],
-                connect: [true, false],
-                //step: 1000,
-                range: {
-                    'min': [parseInt(minValue)],
-                    'max': [parseInt(maxValue)]
-                }
-            });
-
-            c.noUiSlider.on('update', function (a, b) {
-                d.textContent = a[b];
-            });
-        })
-    }
-
     $(".progress-bar").each(function () {
         $(this).waypoint(function () {
             var progressBar = $(".progress-bar");
@@ -243,17 +191,6 @@ $(document).ready(function () {
         }, 600);
 
         event.preventDefault();
-    });
-
-    //Rotating Cards
-    $(document).on('click', '.card-rotate .btn-rotate', function () {
-        var $rotating_card_container = $(this).closest('.rotating-card-container');
-
-        if ($rotating_card_container.hasClass('hover')) {
-            $rotating_card_container.removeClass('hover');
-        } else {
-            $rotating_card_container.addClass('hover');
-        }
     });
 
     //Countdown
