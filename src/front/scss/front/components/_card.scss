@@ -168,13 +168,13 @@
 
     .show-on-hover {
         position: absolute;
-        bottom: -25px;
+        bottom: -30px;
         background: rgba($dark, .85);
         padding: 10px 0;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
-        width: calc(100% + 28px);
-        left: -14px;
+        width: calc(100% + 40px);
+        left: -20px;
         opacity: 0;
         @include transition(.2s);
     }
