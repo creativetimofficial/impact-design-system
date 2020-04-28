@@ -48,7 +48,7 @@ Each element is well presented in very complex documentation. You can read more 
 | --- | --- | --- | --- |
 | [![Dashboard](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/dashboard.jpg)](https://demos.creative-tim.com/impact-design-system/dashboard/pages/dashboards/dashboard.html) | [![Login](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/profile.jpg)](https://demos.creative-tim.com/impact-design-system/dashboard/pages/examples/login.html) | [![Profile](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/register.jpg)](https://demos.creative-tim.com/impact-design-system/dashboard/pages/examples/profile.html) | [![Documentation](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/docs.jpg)](https://demos.creative-tim.com/impact-design-system-pro/docs/getting-started/overview/) 
 
-[View More](https://demos.creative-tim.com/impact-design-system-pro/)
+[View More](https://demos.creative-tim.com/impact-design-system/)
 
 ## Quick start
 
