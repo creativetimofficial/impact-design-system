@@ -1,21 +1,33 @@
-# [Impact Design System](https://demos.creative-tim.com/material-kit/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20is%20a%20Free%20Bootstrap%204%20UI%20Kit%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/material-kit/index.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
+# [Impact Design System](https://demos.creative-tim.com/impact-design-system/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/share?url=http%3A%2F%2Fdemos.creative-tim.com%2Fimpact-design-system%2Findex.html&text=Kick-Start%20Your%20Development%20With%20Impact%20Design%20System&via=creativetim%20%40themesberg&hashtags=bootstrap%20%23designsystem%20%23opensource)
 
- ![version](https://img.shields.io/badge/version-2.0.5-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+ ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-impact-design-system.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-impact-design-system/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-impact-design-system.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-impact-design-system/issues?q=is%3Aissue+is%3Aclosed) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-kit/material-kit.gif)
+![Impact Design System Thumbnail](https://s3.amazonaws.com/creativetim_bucket/products/296/original/opt_impact_thumbnail.jpg)
 
-**Material Kit** is a **Free Bootstrap 4 UI Kit** with a fresh, new design inspired by Google's material design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components. Along with the restyling of the Bootstrap elements, you will find three fully-coded example pages, to help you design your next project.
+Kick-Start Your Development With An **Awesome Design System** carefully designed for your online business showcase. It comes as a complete solution, with front pages and dashboard pages included. 
 
-**Material Kit** makes use of light, surface, and movement. It uses a deliberate color choice, edge-to-edge imagery, and large scale typography. The general layout resembles sheets of paper following multiple different layers so that the depth and order are obvious. The navigation stays mainly on the left and the actions on the right.
+**Impact Design System** features a huge number of components built to fit together and look amazing. If you are a new business looking to create your online presence or you just want to let people know who you are and what you do, this might be the answer for you.
 
-This new design has elements that have been the result of research regarding ink and paper and the way objects and materials interact in real life. The result is a beautiful and consistent set of elements that can get you started with your next project. Material Kit is a great tool if you are looking to create a web presence for your Android application and need to be consistent, leaving the impression of visually similar elements. It is also a great resource in its own right, looking gorgeous and helping you build your web pages.
+### Fully Coded Components
 
-**Material Kit** is based on the Github Repo from Fezvrasta who did an amazing job creating the backbone for the material effects, animations, and transitions. Big thanks to his team for their forward-thinking efforts.
+Impact Design System features **over 200 individual components**, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files.
 
+You will save a lot of time going from prototyping to **full-functional code** because all elements are implemented. We wanted the design process to be seamless, so switching from image to the real page is very easy to do.
+
+View all components [here](https://demos.creative-tim.com/impact-design-system-pro/docs/dashboard/alerts/).
+
+### Example Pages
+
+If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. From **landing pages** to **e-commerce** or **blog pages**, you will be able to quickly set up the basic structure for your web project.
+
+View example front pages [here](https://demos.creative-tim.com/impact-design-system/front/pages/index.html) and example dashboard pages [here](https://demos.creative-tim.com/impact-design-system/dashboard/pages/dashboards/dashboard.html).
+
+### Complex Documentation
+
+Each element is well presented in very complex documentation. You can read more about the idea behind this design system [here](https://demos.creative-tim.com/impact-design-system-pro/docs/getting-started/overview/). You can check the components [here](https://demos.creative-tim.com/impact-design-system-pro/docs/dashboard/alerts/).
 
 ## Table of Contents
 
-* [Versions](#versions)
 * [Demo](#demo)
 * [Quick Start](#quick-start)
 * [Documentation](#documentation)
@@ -26,51 +38,77 @@ This new design has elements that have been the result of research regarding ink
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
 
-
-## Versions
-
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-kit)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-material-kit)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-kit-react)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-native-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-kit-react-native)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/figma-logo.jpg?raw=true" width="60" height="60" />](https://demos.creative-tim.com/material-kit-figma/presentation.html)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/wordpress-logo.jpg?raw=true" width="60" height="60" />](https://themeisle.com/themes/hestia/?ref=creativetim)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/photoshop-logo.jpg" width="60" height="60" />](https://github.com/creativetimofficial/material-kit/tree/photoshop)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/sketch-logo.jpg" width="60" height="60" />](https://github.com/creativetimofficial/material-kit/tree/sketch)
-
-| HTML | React | Vue  |
-| --- | --- | ---  |
-| [![Material Kit  HTML](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/material-kit.jpeg?raw=true)](https://www.creative-tim.com/product/material-kit)  | [![Material Kit  React](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-react/material-kit-react.jpeg?raw=true)](https://www.creative-tim.com/product/material-kit-react)  | [![Vue Material Kit](https://github.com/creativetimofficial/public-assets/blob/master/vue-material-kit/vue-material-kit.jpeg?raw=true)](https://www.creative-tim.com/product/vue-material-kit)
-
-| React Native | Figma | WordPress |
-| ---  | --- | --- |
-| [![Material Kit React Native](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-react-native/opt_mkrn_thumbnail.jpg?raw=true)](https://www.creative-tim.com/product/material-kit-react-native) | [![Material Kit Figma](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-figma/material-kit-figma.jpg?raw=true)](https://demos.creative-tim.com/material-kit-figma/presentation.html) | [![Material Kit WordPress](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-wordpress/opt_smd_thumbnail.jpg?raw=true)](https://themeisle.com/themes/hestia/?ref=creativetim)
-
 ## Demo
 
-| Buttons | Inputs | Navbars  |
-| --- | --- | ---  |
-| [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/buttons.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#buttons)  | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/inputs.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#inputs)  | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/navbar-section.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#navigation)  
+| Landing | About | Pricing | Contact |
+| --- | --- | --- | --- |
+| [![Landing Page](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/landing.jpg)](https://demos.creative-tim.com/impact-design-system/front/pages/index.html) | [![About Page](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/pricing.jpg)](https://demos.creative-tim.com/impact-design-system/front/pages/about.html) | [![Pricing page](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/support-center.jpg)](https://demos.creative-tim.com/impact-design-system/front/pages/pricing.html) | [![Contact Page](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/contact.jpg)](https://demos.creative-tim.com/impact-design-system/front/pages/contact.html)
 
-| Login Page | Landing Page | Profile Page  |
-| --- | --- | ---  |
-| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-kit/login-page.png)](https://demos.creative-tim.com/material-kit/index.html#carousel)  | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/landing-page.png?raw=true)](https://demos.creative-tim.com/material-kit/examples/landing-page.html)  | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/profile-page.png?raw=true)](https://demos.creative-tim.com/material-kit/examples/profile-page.html)  
+| Dashboard | Login | Profile | Documentation |
+| --- | --- | --- | --- |
+| [![Dashboard](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/dashboard.jpg)](https://demos.creative-tim.com/impact-design-system/dashboard/pages/dashboards/dashboard.html) | [![Login](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/profile.jpg)](https://demos.creative-tim.com/impact-design-system/dashboard/pages/examples/login.html) | [![Profile](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/register.jpg)](https://demos.creative-tim.com/impact-design-system/dashboard/pages/examples/profile.html) | [![Documentation](https://demos.creative-tim.com/impact-design-system-pro/front/assets/img/pages/github/docs.jpg)](https://demos.creative-tim.com/impact-design-system-pro/docs/getting-started/overview/) 
 
-[View More](https://demos.creative-tim.com/material-kit/index.html)
-
+[View More](https://demos.creative-tim.com/impact-design-system-pro/)
 
 ## Quick start
 
-- `npm i material-kit`
-- [Download from Github](https://github.com/creativetimofficial/material-kit/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/material-kit).
-- Install with [Bower](https://bower.io/): ```bower install material-kit```.
-- Clone the repo: `git clone https://github.com/creativetimofficial/material-kit.git`.
+1. Clone this repository or download from [Creative Tim](https://www.creative-tim.com/product/impact-design-system)
+2. Make sure you have Node locally installed.
+3. Download Gulp Command Line Interface to be able to use gulp in your Terminal.
 
+```
+npm install gulp-cli -g
+```
+
+4. After installing Gulp, run npm install in the main `impact-design-system-vx.x.x/` folder to download all the project dependencies. You'll find them in the `node_modules/` folder.
+
+```
+npm install
+```
+
+5. Run gulp in the `impact-design-system-vx.x.x/` folder to serve the project files using BrowserSync. Running gulp will compile the theme and open `/index.html` in your main browser.
+
+```
+gulp
+```
+
+While the gulp command is running, files in the `assets/scss/`, `assets/js/` and `components/` folders will be monitored for changes. Files from the `assets/scss/` folder will generate injected CSS.
+
+Hit `CTRL+C` to terminate the gulp command. This will stop the local server from running.
+
+### Theme without Sass, Gulp or Npm
+
+If you'd like to get a version of our theme without Sass, Gulp or Npm, we've got you covered. Run the following command:
+
+```
+gulp build:dev
+```
+
+This will generate a folder `html&css` which will have unminified CSS, Html and Javascript.
+
+### Minified version
+
+If you'd like to compile the code and get a minified version of the HTML and CSS just run the following Gulp command:
+
+```
+gulp build:dist
+```
+
+This will generate a folder `dist` which will have minified CSS, Html and Javascript.
 
 ## Documentation
-The documentation for the Material Kit is hosted at our [website](https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html).
+The documentation for Impact Design System is hosted at our [website](https://demos.creative-tim.com/impact-design-system-pro/docs/getting-started/overview/).
 
 
 ## File Structure
 Within the download you'll find the following directories and files:
 
 ```
-impact-design-system/
+.
+├── LICENSE.md
 ├── README.md
+├── dashboard
+│   └── assets
 ├── gulpfile.js
 ├── package-lock.json
 ├── package.json
@@ -79,10 +117,7 @@ impact-design-system/
     │   ├── assets
     │   │   ├── fonts
     │   │   ├── img
-    │   │   ├── js
-    │   │   └── vendor
-    │   ├── docs
-    │   │   └── documentation.html
+    │   │   └── js
     │   ├── pages
     │   │   ├── dashboards
     │   │   ├── examples
@@ -90,6 +125,7 @@ impact-design-system/
     │   │   └── tables
     │   ├── partials
     │   │   ├── _head.html
+    │   │   ├── _tracking-body.html
     │   │   └── _tracking.html
     │   └── scss
     │       ├── bootstrap
@@ -114,6 +150,7 @@ impact-design-system/
     │   │   ├── _preloader.html
     │   │   ├── _pricing.html
     │   │   ├── _scripts.html
+    │   │   ├── _tracking-body.html
     │   │   ├── _tracking.html
     │   │   └── cta
     │   └── scss
@@ -123,47 +160,34 @@ impact-design-system/
     └── index.html
 ```
 
-
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
 <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
 
-
-
 ## Resources
-- Demo: <https://demos.creative-tim.com/material-kit/index.html>
-- Download Page: <https://www.creative-tim.com/product/material-kit>
-- Documentation: <https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html>
-- License Agreement: <https://www.creative-tim.com/license>
+- Demo: <https://demos.creative-tim.com/impact-design-system/index.html>
+- Download Page: <https://www.creative-tim.com/product/impact-design-system>
+- Documentation: <https://demos.creative-tim.com/impact-design-system-pro/docs/getting-started/overview>
+- License Agreement: MIT License
 - Support: <https://www.creative-tim.com/contact-us>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/material-kit/issues)
-- **Dashboards:**
-
-| HTML | React | Vue  | Angular |
-| --- | --- | ---  | ---  |
-| [![Material Dashboard  HTML](https://github.com/creativetimofficial/public-assets/blob/master/material-dashboard-html/material-dashboard.jpeg?raw=true)](https://www.creative-tim.com/product/material-dashboard) | [![Material Dashboard  React](https://github.com/creativetimofficial/public-assets/blob/master/material-dashboard-react/material-dashboard-react.jpeg?raw=true)](https://www.creative-tim.com/product/material-dashboard-react) | [![Vue Material Dashboard](https://github.com/creativetimofficial/public-assets/blob/master/vue-material-dashboard/vue-material-dashboard.jpeg?raw=true)](https://www.creative-tim.com/product/vue-material-dashboard)  | [![ Material Dashboard Angular](https://github.com/creativetimofficial/public-assets/blob/master/material-dashboard-angular/material-dashboard-angular.jpg?raw=true)](https://www.creative-tim.com/product/material-dashboard-angular2)
-
-| HTML Dark | Vuetify  |
-| --- | --- |
-| [![Material Dashboard Dark](https://github.com/creativetimofficial/public-assets/blob/master/material-dashboard-dark/material-dashboard-dark.jpg?raw=true)](https://www.creative-tim.com/product/material-dashboard-dark) | [![Material Dashboard Vuetify](https://github.com/creativetimofficial/public-assets/blob/master/material-dashboard-vuetify/material-dashboard-vuetify.jpg?raw=true)](https://www.creative-tim.com/product/vuetify-material-dashboard)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/impact-design-system/issues)
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Material Kit. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Impact Design System. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Material Kit. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=mk-github-readme).
+1. Make sure that you are using the latest version of the Impact Design System. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=mk-github-readme).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com/?ref=mk-github-readme)
+- Copyright 2020 Creative Tim (https://www.creative-tim.com/?ref=mk-github-readme)
+- Licensed under MIT (https://github.com/creativetimofficial/impact-design-system/blob/master/LICENSE.md)
 
-- Licensed under MIT (https://github.com/creativetimofficial/material-kit/blob/master/LICENSE.md)
-
-## Useful Links
+## Useful Links Creative Tim
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 - [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=mk-github-readme) (earn money)
@@ -185,3 +209,16 @@ Facebook: <https://www.facebook.com/CreativeTim>
 Dribbble: <https://dribbble.com/creativetim>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial>
+
+## Useful Links Themesberg
+
+- [Free themes](https://themesberg.com/products/free-themes) from Themesberg
+- [Premium themes](https://themesberg.com/products/premium-themes) from Themesberg
+- [Blog Themesberg](https://themesberg.com/blog) from Themesberg
+
+### Social Media
+
+- [Follow @themesberg](https://twitter.com/themesberg) on Twitter
+- [Like Themesberg](https://www.facebook.com/themesberg/) on Facebook
+- [Follow Themesberg](https://dribbble.com/themesberg) on Dribbble
+- [Follow Tthemesberg](https://www.instagram.com/themesberg/) on Instagram
