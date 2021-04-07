@@ -149,52 +149,6 @@
     }
 }
 
-
-// Main Calendar Seasonal headers
-
-[data-calendar-month] {
-    background-size: contain;
-    @include transition(background-image 300ms);
-}
-
-[data-calendar-month="0"] {
-    background-image: url('../img/calendar/january.jpg');
-}
-[data-calendar-month="1"] {
-    background-image: url('../img/calendar/february.jpg');
-}
-[data-calendar-month="2"] {
-    background-image: url('../img/calendar/march.jpg');
-}
-[data-calendar-month="3"] {
-    background-image: url('../img/calendar/april.jpg');
-}
-[data-calendar-month="4"] {
-    background-image: url('../img/calendar/may.jpg');
-}
-[data-calendar-month="5"] {
-    background-image: url('../img/calendar/june.jpg');
-}
-[data-calendar-month="6"] {
-    background-image: url('../img/calendar/july.jpg');
-}
-[data-calendar-month="7"] {
-    background-image: url('../img/calendar/august.jpg');
-}
-[data-calendar-month="8"] {
-    background-image: url('../img/calendar/september.jpg');
-}
-[data-calendar-month="9"] {
-    background-image: url('../img/calendar/october.jpg');
-}
-[data-calendar-month="10"] {
-    background-image: url('../img/calendar/november.jpg');
-}
-[data-calendar-month="11"] {
-    background-image: url('../img/calendar/december.jpg');
-}
-
-
 // Calendar used inside a card
 
 .card-calendar {
