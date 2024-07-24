@@ -30,7 +30,7 @@
         "gulp-npm-dist": "1.0.3",
         "gulp-plumber": "1.2.1",
         "gulp-rename": "1.4.0",
-        "gulp-sass": "4.1.0",
+        "gulp-sass": "5.1.0",
         "gulp-sourcemaps": "2.6.5",
         "gulp-uglify": "3.0.2",
         "gulp-wait": "0.0.2",
