@@ -30,6 +30,7 @@ Each element is well presented in very complex documentation. You can read more 
 
 * [Demo](#demo)
 * [Quick Start](#quick-start)
+* [Deploy](#deploy)
 * [Documentation](#documentation)
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
@@ -95,6 +96,12 @@ gulp build:dist
 ```
 
 This will generate a folder `dist` which will have minified CSS, Html and Javascript.
+
+## Deploy
+
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/impact-design-system&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
 
 ## Documentation
 The documentation for Impact Design System is hosted at our [website](https://demos.creative-tim.com/impact-design-system-pro/docs/getting-started/overview/).
